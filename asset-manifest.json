@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/stafford-portfolio/static/css/main.df61c0f5.css",
+    "main.js": "/stafford-portfolio/static/js/main.b0133d6c.js",
+    "static/js/453.9dbd71cb.chunk.js": "/stafford-portfolio/static/js/453.9dbd71cb.chunk.js",
+    "static/media/profile.jpg": "/stafford-portfolio/static/media/profile.37eb2348a7ba5dd577ec.jpg",
+    "index.html": "/stafford-portfolio/index.html",
+    "main.df61c0f5.css.map": "/stafford-portfolio/static/css/main.df61c0f5.css.map",
+    "main.b0133d6c.js.map": "/stafford-portfolio/static/js/main.b0133d6c.js.map",
+    "453.9dbd71cb.chunk.js.map": "/stafford-portfolio/static/js/453.9dbd71cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df61c0f5.css",
+    "static/js/main.b0133d6c.js"
+  ]
+}

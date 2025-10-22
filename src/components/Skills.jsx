@@ -17,7 +17,7 @@ function Skills() {
         <div className="skill-category">
           <Layers className="skill-icon" />
           <h3>Web & Application Development</h3>
-          <p>Front-end and back-end development, responsive UI/UX design, API integration, cross-browser optimization</p>
+          <p>Front-end and back-end development, content management systems, responsive UI/UX design, API integration, cross-browser optimization</p>
         </div>
 
         <div className="skill-category">

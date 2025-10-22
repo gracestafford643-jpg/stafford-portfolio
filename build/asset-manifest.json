@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/stafford-portfolio/static/css/main.69da2b4d.css",
-    "main.js": "/stafford-portfolio/static/js/main.6f47953b.js",
+    "main.css": "/stafford-portfolio/static/css/main.6c69428c.css",
+    "main.js": "/stafford-portfolio/static/js/main.23186162.js",
     "static/js/453.9dbd71cb.chunk.js": "/stafford-portfolio/static/js/453.9dbd71cb.chunk.js",
     "static/media/profile.jpg": "/stafford-portfolio/static/media/profile.37eb2348a7ba5dd577ec.jpg",
     "index.html": "/stafford-portfolio/index.html",
-    "main.69da2b4d.css.map": "/stafford-portfolio/static/css/main.69da2b4d.css.map",
-    "main.6f47953b.js.map": "/stafford-portfolio/static/js/main.6f47953b.js.map",
+    "main.6c69428c.css.map": "/stafford-portfolio/static/css/main.6c69428c.css.map",
+    "main.23186162.js.map": "/stafford-portfolio/static/js/main.23186162.js.map",
     "453.9dbd71cb.chunk.js.map": "/stafford-portfolio/static/js/453.9dbd71cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69da2b4d.css",
-    "static/js/main.6f47953b.js"
+    "static/css/main.6c69428c.css",
+    "static/js/main.23186162.js"
   ]
 }

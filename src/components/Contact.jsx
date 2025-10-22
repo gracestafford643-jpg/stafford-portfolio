@@ -3,38 +3,28 @@ import './Contact.css';
 
 export default function Contact() {
   return (
-    <section id="contact" className="contact-section">
-      <h2>Get In Touch</h2>
-      <div className="contact-grid">
-        <a
-          className="contact-card"
-          href="mailto:gracestafford643@gmail.com"
-          aria-label="Email Grace"
-        >
-          <span className="contact-label">Email</span>
-          <span className="contact-value">gracestafford643@gmail.com</span>
-        </a>
+ <section className="contact-section" id="contact">
+  <h2>Get In Touch</h2>
+  <div className="contact-grid">
+    <div className="contact-card">
+      <i className="fas fa-envelope"></i>
+      <p>Email</p>
+      <a href="mailto:gracestafford643@gmail.com">gracestafford643@gmail.com</a>
+    </div>
+    <div className="contact-card">
+      <i className="fas fa-phone"></i>
+      <p>Phone</p>
+      <a href="tel:+14433981030">(443) 398-1030</a>
+    </div>
+    <div className="contact-card">
+      <i className="fab fa-linkedin"></i>
+      <p>LinkedIn</p>
+      <a href="https://www.linkedin.com/in/grace-643ges/" target="_blank" rel="noreferrer">
+        /in/grace-643ges
+      </a>
+    </div>
+  </div>
+</section>
 
-        <a
-          className="contact-card"
-          href="tel:+14433981030"
-          aria-label="Call Grace"
-        >
-          <span className="contact-label">Phone</span>
-          <span className="contact-value">(443) 398-1030</span>
-        </a>
-
-        <a
-          className="contact-card"
-          href="https://www.linkedin.com/in/grace-643ges/"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="Visit Grace's LinkedIn"
-        >
-          <span className="contact-label">LinkedIn</span>
-          <span className="contact-value">/in/grace-643ges</span>
-        </a>
-      </div>
-    </section>
   );
 }

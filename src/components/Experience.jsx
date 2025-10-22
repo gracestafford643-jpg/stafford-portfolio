@@ -1,57 +1,38 @@
 import React, { useState } from "react";
+import { projects } from "../data";
 import "./Experience.css";
-import { projects } from "../data"; // adjust path if needed
 
 export default function Experience() {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [expanded, setExpanded] = useState(null);
 
-  const handleCardClick = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
+  const toggleExpand = (index) => {
+    setExpanded(expanded === index ? null : index);
   };
 
   return (
     <section id="experience" className="experience-section">
       <h2>Professional Experience</h2>
-
-      <div className="experience-grid">
+      <div className="timeline">
         {projects.map((proj, i) => (
-          <div
-            key={i}
-            className={`experience-card ${activeIndex === i ? "active" : ""}`}
-            onClick={() => handleCardClick(i)}
-          >
-            <div className="card-header">
+          <div key={i} className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div
+              className={`timeline-card ${expanded === i ? "active" : ""}`}
+              onClick={() => toggleExpand(i)}
+            >
               <h3>{proj.title}</h3>
-              <p className="date">{proj.date}</p>
+              <span className="date">{proj.date}</span>
+              <p className="summary">{proj.description[0]}</p>
+              {expanded === i && (
+                <ul>
+                  {proj.description.slice(1).map((desc, j) => (
+                    <li key={j}>{desc}</li>
+                  ))}
+                </ul>
+              )}
             </div>
-
-            {/* Summary when collapsed */}
-            {activeIndex !== i && (
-              <p className="summary">{proj.description[0].slice(0, 100)}...</p>
-            )}
-
-            {/* Full list when expanded */}
-            {activeIndex === i && (
-              <ul className="details">
-                {proj.description.map((item, idx) => (
-                  <li key={idx}>{item}</li>
-                ))}
-              </ul>
-            )}
           </div>
         ))}
-      </div>
-
-      {/* View Resume Button */}
-      <div className="resume-button-wrapper">
-        <a
-          href={`${process.env.PUBLIC_URL}/Grace_Stafford_Resume.pdf`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="resume-btn"
-        >
-          View My Resume
-        </a>
       </div>
     </section>
   );

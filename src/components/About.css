@@ -1,72 +1,30 @@
 .about-section {
-  padding: 4rem 2rem;
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #14171d;
+  color: #eaeaea;
+  padding: 100px 40px;
 }
 
 .about-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  max-width: 1000px;
-  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-.profile-img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-.about-text {
-  text-align: center;
-  max-width: 700px;
-}
-
-.about-text h2 {
+.about-content h2 {
+  color: #f4c15d;
   font-size: 2rem;
-  color: #222;
-  margin-bottom: 1rem;
+  margin-bottom: 8px;
 }
 
-.about-text p {
-  font-size: 1.1rem;
+.underline {
+  width: 50px;
+  height: 3px;
+  background-color: #f4c15d;
+  margin-bottom: 24px;
+}
+
+.about-content p {
   line-height: 1.7;
-  color: #555;
-  margin-bottom: 1.5rem;
-}
-
-.about-btn {
-  display: inline-block;
-  background: #0077ff;
-  color: white;
-  padding: 0.8rem 1.5rem;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
-
-.about-btn:hover {
-  background: #005fd1;
-  transform: scale(1.05);
-}
-
-/* Responsive tweaks */
-@media (min-width: 768px) {
-  .about-content {
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
-  }
-
-  .profile-img {
-    width: 220px;
-    height: 220px;
-  }
+  color: #c8c8c8;
+  font-size: 1.05rem;
 }

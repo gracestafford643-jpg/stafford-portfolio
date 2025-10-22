@@ -1,49 +1,37 @@
 .contact-section {
-  padding: 4rem 2rem;
-  background: #f9fafc;
+  background-color: #14171d;
   text-align: center;
-}
-
-.contact-section h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: #222;
+  padding: 100px 40px;
 }
 
 .contact-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1rem;
-  max-width: 900px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
 }
 
 .contact-card {
-  background: #fff;
+  background-color: #1e2228;
+  padding: 30px 40px;
   border-radius: 12px;
-  padding: 1.25rem 1.5rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  transition: transform .2s ease, box-shadow .2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
 }
 
 .contact-card:hover {
+  background-color: #2a2f37;
   transform: translateY(-3px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
 }
 
-.contact-label {
-  font-size: 0.9rem;
-  color: #666;
+.contact-card i {
+  font-size: 1.8rem;
+  color: #f4c15d;
+  margin-bottom: 10px;
 }
 
-.contact-value {
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: #0077ff;
-  word-break: break-word;
+.contact-card a {
+  color: #f4c15d;
+  font-weight: 500;
 }

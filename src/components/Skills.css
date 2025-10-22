@@ -28,3 +28,10 @@
   transform: translateY(-3px);
 }
 
+.skill-icon {
+  width: 28px;
+  height: 28px;
+  color: #f4c15d;
+  margin-bottom: 12px;
+}
+

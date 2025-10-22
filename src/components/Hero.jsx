@@ -3,16 +3,20 @@ import './Hero.css';
 
 export default function Hero() {
   return (
-    <section className="hero" id="home">
-      <div className="hero-content">
-        <h1>Hi, I’m <span>Grace Stafford</span> 👋</h1>
-        <p>
-          Digital Analytics Engineer & Web Developer passionate about creating data-driven,
-          user-focused web experiences.
-        </p>
-        <a href="#experience" className="cta">View My Work</a>
-      </div>
-    </section>
+   <section className="hero-section">
+  <img src={`${process.env.PUBLIC_URL}/profile.jpg`} alt="Grace Stafford" className="hero-image" />
+  <h1>Grace Stafford</h1>
+  <h3>Digital Analytics Engineer & Web Developer</h3>
+  <a
+    href="https://www.linkedin.com/in/grace-643ges/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="cta"
+  >
+    Let’s Connect
+  </a>
+</section>
+
   );
 }
 

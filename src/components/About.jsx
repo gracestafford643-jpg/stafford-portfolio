@@ -6,7 +6,6 @@ export default function About() {
   return (
     <section id="about" className="about-section">
       <div className="about-content">
-        <img src={profilePic} alt="Grace Stafford" className="profile-img" />
         <div className="about-text">
           <h2>About Me</h2>
           <p>
@@ -19,7 +18,6 @@ export default function About() {
             When I’m not debugging event tracking or coding new projects, I’m probably exploring
             the outdoors, training for my next half marathon, or cooking up something new in the kitchen.
           </p>
-          <a href="#contact" className="about-btn">Let’s Connect →</a>
         </div>
       </div>
     </section>

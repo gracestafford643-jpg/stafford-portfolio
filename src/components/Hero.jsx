@@ -10,7 +10,7 @@ export default function Hero() {
           Digital Analytics Engineer & Web Developer passionate about creating data-driven,
           user-focused web experiences.
         </p>
-        <a href="#projects" className="cta">View My Work</a>
+        <a href="#experience" className="cta">View My Work</a>
       </div>
     </section>
   );

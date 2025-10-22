@@ -15,14 +15,14 @@ function App() {
       {/* Hero Section */}
       <Hero />
 
+       {/* About Section */}
+      <About />
+
       {/* Professional Experience Section */}
       <Experience />
 
       {/* Skills Section */}
       <Skills />
-
-      {/* About Section */}
-      <About />
 
       {/* Contact Section */}
       <Contact />

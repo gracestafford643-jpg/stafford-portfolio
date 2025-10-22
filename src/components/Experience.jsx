@@ -45,7 +45,7 @@ export default function Experience() {
       {/* View Resume Button */}
       <div className="resume-button-wrapper">
         <a
-          href="/Grace_Stafford_Resume.pdf"
+          href={`${process.env.PUBLIC_URL}/Grace_Stafford_Resume.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           className="resume-btn"

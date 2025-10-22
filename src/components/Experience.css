@@ -1,0 +1,19 @@
+.resume-button-wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.resume-btn {
+  background: #0077ff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.resume-btn:hover {
+  background: #005fd1;
+  transform: scale(1.05);
+}
